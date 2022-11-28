@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriela Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo2.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/Foto3X4.png" alt="Gabriela Bohorquez" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Gabriela Bohorquez</h1>
+          <p class="title">Web & Game Developer</p>
+        </div>
+      </div>
+
+      <button class="info_more-btn" data-sidebar-btn>
+        <span>Show Contacts</span>
+        <ion-icon name="chevron-down"></ion-icon>
+      </button>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:gabybr.030300@gmail.com" class="contact-link">gabybr.030300@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+573024597568" class="contact-link">(+57) 3024597568</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1982-06-23">March 03, 2000</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Bogotá, Colombia</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/gabriela-bohorquez-ramirez-0267591bb/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/Gaby03000" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Gaby030300" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Computer Engineer from Santo Tomás University and student of the Master’s Degree in Industries 4.0 of the International University of La Rioja. 
+            Active participant in research activities especially in areas of software development, video game development and the application of technology within the educational sector with contributions of products such as articles, book chapters, software and presentations at national and international events. 
+            Technology analyst at Famisanar performing frontend development activities. 
+            Part of the first Unity Jr. Developer Bootcamp in Colombia by Unity and Generation.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+        <section class="service">
+          <h3 class="h3 service-title">What I'm doing</h3>
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+                <p class="service-item-text">
+                  Migration of applications to supported technologies. 
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game development</h4>
+                <p class="service-item-text">
+                  Video Games developed during Game Jams and Personal projects I’ve worked independently.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Research</h4>
+                <p class="service-item-text">
+                  Development of research activities related with education and technology.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+        
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <time datetime="2021-06-14">14 June, 2021</time>
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!--
+          - clients
+        -->
+        <section class="clients">
+          <h3 class="h3 clients-title">Skills</h3>
+          <ul class="clients-list has-scrollbar" style="align-items: center;">
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Unity.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/HTML.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/vuejs.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/C.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Industrial.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"> Santo Tomás University - Colombia</h4>
+              <span>2017 — 2021</span>
+              <p class="timeline-text">
+                Undergraduate Degree in Computer Engineering 
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> International University of La Rioja (UNIR) - Spain</h4>
+              <span>2022 — 2023</span>
+              <p class="timeline-text">
+                Student of the Master’s Degree in Industries 4.0 of the International University of La Rioja - Spain
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Unity Junior Developer</h4>
+              <span>2022 — 2023</span>
+              <p class="timeline-text">
+                Unity Jr. Developer Bootcamp in Colombia by Unity and Generation.
+              </p>
+            </li>
+          </ol>
+
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Technology Analyst</h4>
+              <span>2022 — Present</span>
+              <p class="timeline-text">
+                Migration of applications to supported technologies. 
+              </p>
+              <p class="timeline-text">
+                Coding of user stories assigned following defined architecture standards. 
+              </p>
+              <p class="timeline-text">
+                Make corrections of quality errors and document solutions for the correct development of functionality or requirement
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"> Young Researcher</h4>
+              <span>2020 — 2021</span>
+              <p class="timeline-text">
+                Development of research activities in the role of young researcher in the projects: Integration of intelligent conversational agents in a learning platform for users with limited access to the Internet
+                and Neurodidactic Software for the strengthening of mathematical logical thinking.
+              </p>
+            </li>
+
+          </ol>
+        </section>
+      </section>
+
+      <section class="timeline">
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+          <h3 class="h3">Certifications</h3>
+        </div>
+
+        <ol class="timeline-list">          
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Unity</h4>
+            <span>2022</span>
+            <p class="timeline-text">              
+              Unity Essentials Pathway
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Unity</h4>
+            <span>2022</span>
+            <p class="timeline-text">              
+              Unity Junior Programmer
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Pontifical Javeriana University</h4>
+            <span>2020 — 2021</span>
+            <p class="timeline-text">
+              Certificate in Coding and Programming 
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title"> EF SET English Certificate 60/100 (B2 Upper Intermediate)</h4>
+            <span>2022</span>
+            <p class="timeline-text">
+              Successfully completed the EF Standard English Test, achieving an overall English level of B2 UPPER INTERMEDIATE according to the Common European Framework of Reference.
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">International University of La Rioja (UNIR)</h4>
+            <span>2022</span>
+            <p class="timeline-text">
+              Certificate in Organizational Leadership held from January 31, 2022 to March 6, 2022, with a duration of 48 hours.
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Certiprof</h4>
+            <span>2022</span>
+            <p class="timeline-text">
+              SCRUM Foundation Professional Certificate
+            </p>
+          </li>
+          
+        </ol>
+      </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Game development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Game development</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="game development">
+              <a href="https://gaby030300.itch.io/life-on-wheels">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/LifeOnWheels.png" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Life On Wheels</h3>
+                <p class="project-category">Game development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="game development">
+              <a href="https://gaby030300.itch.io/cake-vs-goose">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/CakeGoose.png" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Cake VS ¿Goose?</h3>
+                <p class="project-category">Game development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="game development">
+              <a href="https://gaby030300.itch.io/pixel-metroid-2d">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/PixelMetroid.png" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Pixel Metroid</h3>
+                <p class="project-category">Game development</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
